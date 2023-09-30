@@ -1,19 +1,26 @@
 import Link from 'next/link';
+import classes from './navbar.module.css';
 
 const Navbar = () => {
     return (
-        <nav>
+        <header className={classes.header}>
             <Link href="/">
-                Home
-            </Link>
-            <ul>
-                <li>
-                    <Link href="/about">About</Link>
-                    <Link href="/projects">Projects</Link>
-                    <Link href="/contact">Contact</Link>
-                </li>
-            </ul>
-        </nav>
+                <div className={classes.logo}>Steve's Potfolio</div>
+            </Link>        
+            <nav>
+                <ul>
+                    <li>
+                        <Link href="/about">About</Link>
+                    </li>
+                    <li>
+                        <Link href="/projects">Projects</Link>
+                    </li>
+                    <li>
+                        <Link href="/contact">Contact</Link>
+                    </li>
+                </ul>
+            </nav>
+        </header>
     )
 }
 

@@ -1,0 +1,38 @@
+.latest {
+    width: 90%;
+    max-width: 80rem;
+    margin: var(--size-8) auto;
+  }
+  
+.latest h2 {
+  font-size: var(--size-8);
+  color: var(--color-grey-800);
+  text-align: center;
+}
+
+.buttonWithImage {
+  font-size: var(--size-6);
+  color: var(--color-grey-800);
+  text-align: center;
+}
+
+.latest img {
+  align-content: center;
+}
+  
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 1.5rem;
+  align-content: center;
+}
+
+
+@media (min-width: 768px) {
+  .latest h2 {
+    font-size: var(--size-16);
+  }
+}
