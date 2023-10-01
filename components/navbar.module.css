@@ -50,6 +50,30 @@
     }
 
     .logo {
-        font-size: var(--size-8);
+       font-size: var(--size-8);
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+    .header ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header a {
+        font-size: var(--size-5);
       }
+    
+    .header li {
+        margin: var(--size-2) 0;
+    }
+
+    .logo {
+        font-size: var(--size-8);
+    }
 }

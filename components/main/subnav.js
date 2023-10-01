@@ -14,7 +14,7 @@ const Subnav = () => {
                                 width="100"
                                 height="100"
                             />
-                            <h3>About me</h3>
+                            <h3>About Me</h3>
                         </div>
                     </Link>
                 </li>
@@ -26,7 +26,7 @@ const Subnav = () => {
                                 width="100"
                                 height="100"
                             />
-                            <h3>Side projects</h3>
+                            <h3>My Side Projects</h3>
                         </div>
                     </Link>
                 </li>

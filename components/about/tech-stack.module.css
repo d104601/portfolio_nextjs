@@ -1,0 +1,38 @@
+.tech {
+    text-align: center;
+    padding: var(--size-8) 0;
+}
+
+.tech h1 {
+    text-align: center;
+    font-size: var(--size-12);
+    margin: var(--size-4) 0;
+}
+
+.tech h2 {
+    text-align: center;
+    font-size: var(--size-6);
+    margin: var(--size-4) 0;
+}
+
+.tech p {
+    font-size: var(--size-6)
+}
+
+.tech ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.tech li {
+    margin: 0 1rem;
+}
+
+.tech li p {
+    font-size: var(--size-4);
+}

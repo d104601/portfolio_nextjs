@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <header className={classes.header}>
             <Link href="/">
-                <div className={classes.logo}>Steve's Potfolio</div>
+                <div className={classes.logo}>Steve Lee</div>
             </Link>        
             <nav>
                 <ul>
@@ -13,7 +13,7 @@ const Navbar = () => {
                         <Link href="/about">About</Link>
                     </li>
                     <li>
-                        <Link href="/projects">Projects</Link>
+                        <Link href="/project">Projects</Link>
                     </li>
                     <li>
                         <Link href="/contact">Contact</Link>

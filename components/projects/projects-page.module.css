@@ -1,0 +1,27 @@
+.posts {
+    width: 90%;
+    max-width: 60rem;
+    margin: var(--size-8) auto;
+}
+  
+.posts h1 {
+    font-size: var(--size-8);
+    color: var(--color-grey-800);
+    text-align: center;
+}
+
+.grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    gap: 2rem;
+    align-content: center;
+}
+
+@media (min-width: 768px) {
+    .posts h1 {
+        font-size: var(--size-16);
+    }
+}
