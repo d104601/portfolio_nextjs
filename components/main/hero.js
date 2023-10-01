@@ -13,7 +13,7 @@ const Hero = () => {
                 />
             </div>
             <h1>I&apos;m Steve Lee</h1>
-            <p>I&apos;m a full stack developer. I'm specialized in React and backend development.</p>
+            <p>I&apos;m a full stack developer. I&apos;m specialized in React and backend development.</p>
         </section>
     );
 }
