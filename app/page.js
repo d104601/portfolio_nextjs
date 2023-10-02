@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Hero from '@/components/main/hero'
 import Subnav from '@/components/main/subnav'
 

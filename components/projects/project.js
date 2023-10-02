@@ -3,13 +3,15 @@ import classes from './project.module.css';
 import Image from 'next/image';
 
 const Project = ({ project }) => {
-    const { title, image, exerpt, slug } = project;
+    const { title, image, exerpt, slug, completed } = project;
 
     const imgPath = `/images/project/${slug}/${image}`;
 
     return (
         <li className={classes.post}>
-            <Link href={`/projects/${slug}`}>
+            <Link 
+                href={`/project/${slug}`}
+            >
                 <div className={classes.image}>
                     <Image src={imgPath} alt={title} width={300} height={200} layout='responsive'/>
                 </div>
