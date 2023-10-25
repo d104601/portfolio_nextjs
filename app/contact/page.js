@@ -1,8 +1,8 @@
-import Contact from "@/components/contact/contact-page";
+import ContactForm from "@/components/contact/contact-form";
 
 const ContactPage = () => {
     return (
-        <Contact />
+        <ContactForm />
     );
 };
 
