@@ -7,21 +7,22 @@ const TechStack = () => {
         {name: 'JavaScript', icon: '/images/about/tech/javascript.png'},
         {name: 'TypeScript', icon: '/images/about/tech/typescript.png'},
         {name: 'Python', icon: '/images/about/tech/python.png'},
+        {name: 'C#', icon: '/images/about/tech/csharp.svg'}
     ];
     const frontend = [
         {name: 'HTML5', icon: '/images/about/tech/html5.png'},
         {name: 'CSS3', icon: '/images/about/tech/css3.png'},
         {name: 'React', icon: '/images/about/tech/react.png'},
         {name: 'Angular 2+', icon: '/images/about/tech/angular.png'},
-        {name: 'Bulma', icon: '/images/about/tech/bulma.png'},
-        {name: 'Bootstrap', icon: '/images/about/tech/bootstrap.svg'},
+        {name: 'Flutter', icon: '/images/about/tech/flutter.svg'}
     ];
     const backend = [
         {name: 'Node.js', icon: '/images/about/tech/nodejs.png'},
         {name: 'Express.js', icon: '/images/about/tech/express.png'},
         {name: 'Next.js', icon: '/images/about/tech/nextjs.png'},
         {name: 'Spring', icon: '/images/about/tech/spring.png'},
-        {name: 'FastAPI', icon: '/images/about/tech/fastapi.png'}
+        {name: 'FastAPI', icon: '/images/about/tech/fastapi.png'},
+        {name: '.NET Core', icon: '/images/about/tech/dotnetcore.png'}
     ];
     const databases = [
         {name: 'MySQL', icon: '/images/about/tech/mysql.png'},
