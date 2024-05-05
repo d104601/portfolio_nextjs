@@ -7,7 +7,7 @@ const About = () => {
         <section className={classes.about}>
             <h1>About Me</h1>
             <p>
-                I&apos;m a full stack developer with a passion for creating easy and useful web, desktop and mobile applications and currently working at Seoyon E-Hwa Manufacturing since Nov 2023.
+                I&apos;m a full stack developer with a passion for creating easy and useful web, desktop and mobile applications and currently working at Seoyon E-Hwa Manufacturing since June 2023.
                 <br/>
                 I&apos;m specialized in backend development using various languages and frameworks.
                 <br/>
