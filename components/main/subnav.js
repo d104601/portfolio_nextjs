@@ -19,7 +19,7 @@ const Subnav = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/projects">
+                    <Link href="/project">
                         <div className={classes.buttonWithImage}>
                             <Image
                                 src="/images/main/projects.png"

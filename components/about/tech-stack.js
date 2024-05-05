@@ -22,10 +22,11 @@ const TechStack = () => {
         {name: 'Next.js', icon: '/images/about/tech/nextjs.png'},
         {name: 'Spring', icon: '/images/about/tech/spring.png'},
         {name: 'FastAPI', icon: '/images/about/tech/fastapi.png'},
-        {name: '.NET Core', icon: '/images/about/tech/dotnetcore.png'}
+        {name: 'ASP.NET', icon: '/images/about/tech/aspnet.png'}
     ];
     const databases = [
         {name: 'MySQL', icon: '/images/about/tech/mysql.png'},
+        {name: 'Oracle PL/SQL', icon: '/images/about/tech/oracle.svg'},
         {name: 'MongoDB', icon: '/images/about/tech/mongodb.png'},
         {name: 'Sequelize', icon: '/images/about/tech/sequelize.svg'},
         {name: 'Mongoose', icon: '/images/about/tech/mongoose.png'},
